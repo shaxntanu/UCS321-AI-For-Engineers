@@ -55,7 +55,7 @@ Implementing the foundational artificial neuron model:
 1. Clone this repository
 2. Make sure you have Python installed
 3. For Lab 2, install pandas: `pip install pandas`
-4. Run any program: `python filename.py`
+4. Run any program: `py filename.py`
 
 That's it! Each lab folder contains everything you need.
 
