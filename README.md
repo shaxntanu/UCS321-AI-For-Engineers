@@ -9,6 +9,8 @@ A collection of Python programming labs for learning AI and machine learning con
 **Lab 3**: List operations for data handling  
 **Lab 4**: McCulloch-Pitts neuron implementation for logic gates
 
+**Lab 5**: PCA, K-means, and DBSCAN clustering with country data
+
 Each lab is self-contained with complete working code, sample datasets, and detailed README files explaining the implementation.
 
 ## Lab 1 - Python Basics
@@ -50,12 +52,23 @@ Implementing the foundational artificial neuron model:
 - **Truth Tables** - Understanding binary operations
 - **Neural Network Foundations** - Building blocks for AI
 
+## Lab 5 - PCA, K-Means and DBSCAN Clustering
+
+Clustering countries using development indicators:
+
+- **Feature Scaling** - Standardizing numeric indicators before clustering
+- **PCA** - Reducing the indicators while retaining 95% of their variance
+- **K-Means** - Comparing cluster counts with inertia and silhouette scores
+- **DBSCAN** - Finding dense groups and identifying noise points
+- **Visualization** - Plotting cluster assignments with Matplotlib
+
 ## Getting Started
 
 1. Clone this repository
 2. Make sure you have Python installed
 3. For Lab 2, install pandas: `pip install pandas`
-4. Run any program: `py filename.py`
+4. For Lab 5, install pandas, scikit-learn, and matplotlib: `pip install pandas scikit-learn matplotlib`
+5. Run any program: `py filename.py`
 
 That's it! Each lab folder contains everything you need.
 
