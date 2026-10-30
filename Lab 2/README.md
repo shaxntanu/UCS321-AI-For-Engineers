@@ -44,6 +44,14 @@ To run the program, ensure you have pandas installed and execute:
 python main.py
 ```
 
+## Visualization
+
+The figure marks missing subject scores in the original data and shows the completed score matrix after mean imputation.
+
+![Mean imputation visualization](figures/mean_imputation.png)
+
+Generate it from the repository root with `python Visualisation/visualise_lab2.py`.
+
 The program will display each step of the process along with intermediate results, making it easy to follow what is happening.
 
 ## Key Takeaways

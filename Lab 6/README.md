@@ -46,6 +46,14 @@ python perceptron_or.py
 
 The output shows the weights, bias, and number of mistakes after each epoch, followed by the learned truth table.
 
+## Visualization
+
+The figure shows the learned `net = 0` decision boundary and misclassified rows per epoch. It uses the trained weights and bias; the activation assigns points on the boundary to `+1`.
+
+![Perceptron OR training visualization](figures/perceptron_or_training.png)
+
+Generate it from the repository root with `python Visualisation/visualise_lab6.py`.
+
 ## Key Takeaways
 
 - Binary inputs and bipolar target labels use different encodings.

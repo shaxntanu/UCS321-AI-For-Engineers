@@ -43,6 +43,14 @@ To run the implementation, simply execute the Python file:
 python mcculloch_pitts_neuron.py
 ```
 
+## Visualization
+
+The truth-table heatmaps show the output for all binary input combinations, using each gate's weights and threshold from the Python program.
+
+![Logic gate truth tables](figures/logic_gate_truth_tables.png)
+
+Generate it from the repository root with `python Visualisation/visualise_lab4.py`.
+
 The program will display the truth tables for all four logic gates along with the weights and thresholds used for each one.
 
 ## Key Takeaways

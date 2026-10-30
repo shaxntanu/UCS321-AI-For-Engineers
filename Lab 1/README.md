@@ -63,6 +63,14 @@ python 06_display_house_sizes.py
 python 07_linear_regression_prediction.py
 ```
 
+## Visualization
+
+The plot shows the four training houses, fitted line, and the held-out fifth house with its prediction.
+
+![Linear regression visualization](figures/linear_regression.png)
+
+Generate it from the repository root with `python Visualisation/visualise_lab1.py`.
+
 ## Key Takeaways
 
 This lab builds a complete understanding of Python programming fundamentals while staying within the context of a real-world problem. By implementing linear regression from scratch, it demystifies the mathematical foundations of machine learning and shows that complex models are built from simple programming concepts. The progression from basic data types to a working machine learning model provides a solid foundation for more advanced AI topics.

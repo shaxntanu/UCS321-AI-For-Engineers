@@ -15,6 +15,20 @@ A collection of Python programming labs for learning AI and machine learning con
 
 Each lab is self-contained with complete working code, sample datasets, and detailed README files explaining the implementation.
 
+## Visualisation Scripts
+
+`Visualisation/` contains one Matplotlib script for each lab. Run a script from the repository root to regenerate its figure; each script saves the image into the matching lab's `figures/` folder, where that lab's README displays it.
+
+```bash
+python -m pip install matplotlib pandas scikit-learn
+python Visualisation/visualise_lab1.py
+python Visualisation/visualise_lab2.py
+python Visualisation/visualise_lab3.py
+python Visualisation/visualise_lab4.py
+python Visualisation/visualise_lab5.py
+python Visualisation/visualise_lab6.py
+```
+
 ## Lab 1 - Python Basics
 
 Seven programs covering Python fundamentals:
@@ -72,16 +86,6 @@ Training a perceptron on the binary-input OR truth table:
 - **Bipolar Targets** - The expected outputs are -1 or +1
 - **Perceptron Learning Rule** - Updating weights and bias for mistakes
 - **Training Progress** - Displaying epoch updates and the final truth table
-
-## Getting Started
-
-1. Clone this repository
-2. Make sure you have Python installed
-3. For Lab 2, install pandas: `pip install pandas`
-4. For Lab 5, install pandas, scikit-learn, and matplotlib: `pip install pandas scikit-learn matplotlib`
-5. Run any program: `py filename.py`
-
-That's it! Each lab folder contains everything you need.
 
 ---
 

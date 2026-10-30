@@ -28,6 +28,14 @@ To run the program, execute:
 python question3_house_sizes.py
 ```
 
+## Visualization
+
+The bar chart represents the six house-size values stored and printed by the program.
+
+![House sizes visualization](figures/house_sizes.png)
+
+Generate it from the repository root with `python Visualisation/visualise_lab3.py`.
+
 The output will display each house size on a separate line followed by the total count of houses.
 
 ## Key Takeaways

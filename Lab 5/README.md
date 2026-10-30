@@ -32,6 +32,10 @@ The cluster plot shows the first two principal components. The models use all si
 
 ## Figures
 
+The combined overview below places PCA variance and the two clustering projections together.
+
+![PCA and clustering overview](figures/pca_clustering_overview.png)
+
 ![PCA explained variance](figures/pca_explained_variance.png)
 
 ![K-means elbow and silhouette plots](figures/kmeans_model_selection.png)
@@ -46,6 +50,8 @@ Install the required packages and run the script from this folder:
 python -m pip install pandas scikit-learn matplotlib
 python main.py
 ```
+
+To regenerate the combined overview from the repository root, run `python Visualisation/visualise_lab5.py`.
 
 The script saves three plots in `figures/` and writes each country's K-means and DBSCAN labels to `country_cluster_assignments.csv`.
 
