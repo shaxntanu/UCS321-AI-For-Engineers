@@ -11,6 +11,8 @@ A collection of Python programming labs for learning AI and machine learning con
 
 **Lab 5**: PCA, K-means, and DBSCAN clustering with country data
 
+**Lab 6**: OR function using binary inputs, bipolar targets, and perceptron training
+
 Each lab is self-contained with complete working code, sample datasets, and detailed README files explaining the implementation.
 
 ## Lab 1 - Python Basics
@@ -61,6 +63,15 @@ Clustering countries using development indicators:
 - **K-Means** - Comparing cluster counts with inertia and silhouette scores
 - **DBSCAN** - Finding dense groups and identifying noise points
 - **Visualization** - Plotting cluster assignments with Matplotlib
+
+## Lab 6 - OR Function Using Perceptron Training
+
+Training a perceptron on the binary-input OR truth table:
+
+- **Binary Inputs** - The two input values are 0 or 1
+- **Bipolar Targets** - The expected outputs are -1 or +1
+- **Perceptron Learning Rule** - Updating weights and bias for mistakes
+- **Training Progress** - Displaying epoch updates and the final truth table
 
 ## Getting Started
 
